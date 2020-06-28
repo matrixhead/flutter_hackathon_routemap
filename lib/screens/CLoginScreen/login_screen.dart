@@ -34,7 +34,6 @@ class _LoginScreenState extends State<LoginScreen> {
                       prefixIcon: Icon(Icons.person_outline),
                     ),
                   ),
-
                   TextField(
                     decoration: InputDecoration(
                       border: InputBorder.none,
@@ -56,7 +55,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       height: 60,
                       child: FlatButton(
                         color: Colors.white,
-                        textColor: Colors.blue,
+                        textColor:dark,
                         shape: new RoundedRectangleBorder(
                             borderRadius: new BorderRadius.circular(6.0)),
                         splashColor: Colors.blueAccent,
@@ -68,8 +67,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   ),
                   Text("Login With"),
-
-                  Row(
+                  Wrap(
                     children: <Widget>[
                       Padding(
                         padding: const EdgeInsets.all(8.0),
