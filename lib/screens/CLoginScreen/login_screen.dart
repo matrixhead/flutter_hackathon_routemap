@@ -35,6 +35,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   ),
                   TextField(
+                    obscureText: true,
                     decoration: InputDecoration(
                       border: InputBorder.none,
                       hintText: ' Password',
